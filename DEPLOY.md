@@ -132,7 +132,7 @@ No Vercel:
 ```bash
 # Limpe cache e reinstale
 rm -rf node_modules package-lock.json
-npm install
+npm install --legacy-peer-deps
 npm run build
 ```
 
